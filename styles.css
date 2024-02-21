@@ -1,1 +1,18 @@
 /* your code */
+ table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden; 
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color:#215A8E;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
